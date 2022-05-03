@@ -1,0 +1,41 @@
+.payments {
+  background-color: white;
+}
+.payments__container > h1 {
+  text-align: center;
+  padding: 10px;
+  font-weight: 400;
+  background-color: rgb(234, 237, 237);
+  border-bottom: 1px solid lightgray;
+}
+.payments__container > h1 a {
+  text-decoration: none;
+}
+.payments__section {
+  display: flex;
+  padding: 20px;
+  margin: 0 20px;
+  border-bottom: 1px solid lightgray;
+}
+.payments__title {
+  flex: 0.2;
+}
+.payments__adress,
+.payments__items,
+.payments__details {
+  flex: 0.8;
+}
+h3 {
+  font-weight: 600;
+}
+button {
+  background-color: yellow;
+  border-radius: 8px;
+  width: 100%;
+  height: 30px;
+  border: none;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  color: black;
+  cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.home {
+  display: flex;
+  justify-content: center;
+  background-image: url(../Images/kunj-parekh-Y5BD-H9qGvs-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+.home__image {
+  height: 400px;
+  object-fit: none;
+  object-position: center;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  z-index: 1;
+  margin-bottom: -80px;
+}
+.home__row {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  justify-content: center;
+}
