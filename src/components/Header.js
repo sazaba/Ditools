@@ -36,18 +36,20 @@ function Header() {
                 <img className='header__logo' src={logo} />
             </Link>
 
-            <div className='header__search'>
+            {/* <div className='header__search'>
                 <input className='header__searchInput' type='text' />
                 <SearchIcon className='header__searchIcon' />
-            </div>
+            </div> */}
 
             <div className='header__nav'>
-                <Link to={!user && '/sign'}> 
+                
                     <div className='header__option'>
                         <span className='header__optionLineOne'>{user ? 'Hola ' + user.email : 'Hola'}</span>
+                        <Link style={{ textDecoration: 'none' }} to={!user && '/sign'}> 
                         <span  onClick={handleAuthentication} className='header__optionLineTwo'>{user ? 'Cerrar Sesión' : 'Iniciar Sesión'}</span>
+                        </Link>
                     </div>
-                </Link>
+                
 
                 <div className='header__option'>
                     <span className='header__optionLineOne'>Returns</span>

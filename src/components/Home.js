@@ -21,8 +21,7 @@ function Home() {
                  id='2'
                  />
                 
-            </div>
-            <div className='home__row'>
+            
             <Product title='Manguera Plana Azul 1x4Bar x100Mts'
                  price={538356} 
                  image={'https://m.media-amazon.com/images/I/71f8rUE3kgL._AC_SL1200_.jpg'}
@@ -43,8 +42,7 @@ function Home() {
                  />
                  
                
-            </div>
-            <div className='home__row'>
+            
             <Product title='Valvula de Alivio o Ventosa Doble Efecto 2"'
                  price={144799} 
                  image={'https://http2.mlstatic.com/D_NQ_NP_612119-MCO45321520360_032021-O.jpg'}

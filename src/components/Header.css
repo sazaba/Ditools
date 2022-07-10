@@ -6,6 +6,7 @@
   position: sticky;
   top: 0;
   z-index: 100;
+  justify-content: space-around;
 }
 .header__logo {
   width: 150px;
@@ -47,6 +48,7 @@
 .header__nav {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .header__optionLineOne {
   font-size: 10px;

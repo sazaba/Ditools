@@ -13,16 +13,18 @@ function Checkout() {
   return (
     <div className='checkout'>
         <div className='checkout__left'>
-          <h3>Hola {user?.email}</h3>
+          
                 <div className='checkout__title'>
+                <h3>Hola {user?.email}</h3>
                 <h2>Aca esta tu Compra</h2>
+                </div>
                 <div className='checkout__resume'>
                 {arrayBasket.map(({title,price,image,rating,id})=>(
                 <CheckoutProduct title={title} price={price} image={image} rating={rating} id={id}/>
                  ))}
                 </div>
                 
-                </div>
+                
         </div>
 
         <div className='checkout__right'>

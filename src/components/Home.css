@@ -23,9 +23,12 @@
   margin-bottom: -80px;
 }
 .home__row {
-  display: flex;
-  z-index: 1;
-  margin-left: 5px;
-  margin-right: 5px;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+}
+
+@media(max-width: 750px){
+  .home__row{
+    grid-template-columns: repeat(1, minmax(0,1fr));
+  }
 }

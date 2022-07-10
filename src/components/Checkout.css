@@ -35,3 +35,34 @@
   padding: 10px;
   border-bottom: 1px solid lightgray;
 }
+
+@media(max-width:750px){
+  .checkout{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;   
+  
+  }
+  .checkout__resume{
+    margin-top: 50px;
+    grid-template-columns: repeat(1, minmax(0,1fr));  
+    grid-template-rows: auto;  
+    
+  }
+  .checkout__left{
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    /* min-height: 100vh; */
+  }
+  .checkout__title{
+    font-size: 20px;
+    margin: auto;
+    width: 100%;
+
+  }
+  .checkout__right{
+    margin:0;
+    width: 100%;
+  }
+}
